@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(139, 139, 184);
+    font-size: 1.05rem;
+}
+
+main hr{
+    border: 0;
+    background: rgb(176, 114, 235);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.purple{
+    color: rgb(176, 114, 235);
+}
+.btn{
+    display: inline-block;
+    background: rgb(0,0,33);
+    color: white;
+    border: solid white;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: rgb(176, 114, 235);
+    transition: background 0.5s;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+#element{
+    color: rgb(176, 114, 235);
+}
+
+.secondSection h1{
+    max-width: 20vw;
+    margin: 20px 40px;
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 1.95rem;
+}
+.secondSection p{
+    font-size: 1.2rem;
+    max-width: fit-content;
+    margin: 20px 0 0 40px;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+.secondSection #element{
+    font-size: 1.2rem;
+    margin: 20px 0 0 40px;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+
+hr .line{
+    border: 0;
+    background: rgb(176, 114, 235);
+    height: 1.2px;
+    margin: 60px 84px;    
+}
+
+.thirdSection h1{
+    max-width: 20vw;
+    margin: 20px 40px;
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 1.95rem;
+}
+.thirdSection .leftSection{
+    font-size: 1.2rem;
+    margin: 20px 0 0 40px;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    display: flex;
+}
+
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px blueviolet;
+    cursor: pointer;
+    transition: transform 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    height: 300px;
+    width: 350px; 
+}
+.testimonial .smallcontainer{
+    padding-top: 100px;
+}
+.testimonial .col3:hover{
+    transform: translateY(-10px);
+}
+.testimonial .col3 ul li{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 125px;
+    list-style: none;
+}
+.testimonial .col3 ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(186, 136, 233);
+}
+.testimonial .row{
+    display: inline-block;
+    padding-top: 125px;
+    padding: 50px 50px;
+    padding-left: 75px;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.container h1{
+    max-width: 20vw;
+    margin: 20px 0 0 40px;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    font-size: 1.95rem;
+}
+.container h3{
+    font-size: 1.2rem;
+    margin-left: 40px;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 30px;
+}
+.contact-box{
+    background-color: rgb(85, 139, 238);
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(32, 92, 204);
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background: rgb(0,0,33);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px 0 rgba(28,0,181,0.3);
+}
+.contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
